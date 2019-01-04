@@ -1,0 +1,15 @@
+使用Git提交到远端github仓库 
+在本地创建 本地仓库
+git config --global user.name 'name'
+git config --global user.email 'email'
+git config -l  查看设置的信息是否正确
+git init  初始化本地库(代表这是一个git库)
+git remote add origin URl(远端仓库地址)  将本地仓库关联到远端仓库
+git status   查看当前本地仓库的文件变动状态 
+git add *   将变化的文件都添加到本地仓库中
+git commit -m '备注'  将本地文件和缓冲区的文件进行提交到head 区域 并添加备注
+git push -u origin master 将head缓冲区的仓库提交到远端github仓库 
+
+-------------------------------------------------------------------------------
+
+
