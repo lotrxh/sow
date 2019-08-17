@@ -1,4 +1,4 @@
-使用Git提交到远端github仓库 
+﻿使用Git提交到远端github仓库 
 在本地创建 本地仓库
 git config --global user.name 'name'
 git config --global user.email 'email'
@@ -11,5 +11,13 @@ git commit -m '备注'  将本地文件和缓冲区的文件进行提交到head 
 git push -u origin master 将head缓冲区的仓库提交到远端github仓库 
 
 -------------------------------------------------------------------------------
+新增的报错的解决办法
+$ git remote add origin git@github.com:SueV1/suwei.git
+$ git push origin master
+
+或
+$ git remote set-url origin git@github.com:SueV1/suwei.git
+$ git push origin master
+
 
 
